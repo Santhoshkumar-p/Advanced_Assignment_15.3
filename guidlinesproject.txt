@@ -1,0 +1,22 @@
+Create a service, which will store an object of task in your current component
+and then make a link on the same view and when the user clicks,
+it should go to the next page and show that task object data in view.
+
+Notes:
+
+Angular CLI is used to create app. So, use ng serve to run on localhost:4200
+Used the Todo List example created by https://github.com/resolvethis/ng2-todo
+Added an edit todo component
+Modified the todo item component, so that user can check off item as completed and NOT archive it
+and conversely, can archive it without completing it
+Modified the service method removeItem to accomodate the completed flag Also, added a getItem by id for the EditComponent
+For this assignment the EditComponent doesn't actually let user change anything, just view it
+Also, modified the todo list so that each todo task has an <a> tag to take user to view the selected todo item
+Code structure:
+app-root
+todo-page, archive-page
+todo-page:
+new-todo, todo-list
+todo-item, edit-todo
+archive-page:
+archive-list, edit-todo

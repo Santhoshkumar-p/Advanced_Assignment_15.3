@@ -1,0 +1,10 @@
+<li class="well">
+    <div class="view">
+
+        <input class="toggle" type="checkbox" (click)="doneClicked()" [checked]="item.completed">
+        <label><a [routerLink]="['/todo', item.id]">{{item.text}}</a></label>
+
+        <button class="btn btn-danger" (click)="removeClicked()">X</button>
+
+    </div>
+</li>

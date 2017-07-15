@@ -1,0 +1,20 @@
+<div class="todo-list">
+    <ul>
+
+        <todo-item *ngFor="let item of store.items"
+                   [item]="item"
+                   (done)="removeItem($event)">
+        </todo-item>
+
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+

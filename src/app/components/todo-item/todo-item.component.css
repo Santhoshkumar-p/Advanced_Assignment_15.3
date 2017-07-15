@@ -1,0 +1,14 @@
+li {
+    width: 514px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+label{
+    margin-left: 20px
+}
+
+.btn-danger {
+    float: right;
+    padding: 2px 8px;
+}
